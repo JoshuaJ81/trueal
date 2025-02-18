@@ -897,12 +897,7 @@ text-align: center;
                             width: 100%;
                           }
 
-                          .hideit {
-                            opacity: 0;
-                            filter: blur(5px);
-                            transform: translateX(100%);
-                            transition: all 1s;
-                          }
+                       
 
                         .grid-container {
                         display: grid;
