@@ -363,27 +363,13 @@ display: flex;
   
   /*================================================================= ABOUT ====================================================================*/
 
+
   #about {
 
-    background-image: url('../images/pexels-elevate-1267325.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:top;
-    text-align: center;
-    
-    background-blend-mode: color;
-    height: 50rem;
-    
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
 
+    background-color: #e9e4e4;
 
   }
-
 
   #about h1, #contact h1 {
 
@@ -414,6 +400,18 @@ display: flex;
     align-items: center;      
 
   }
+
+  #about p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+   
+    margin-right: 6rem;
+    margin-left: 6rem;
+    margin-top: 25px;
+    text-align: center;
+   
+}
 
 
 
@@ -470,11 +468,17 @@ display: flex;
     font-size: 1.5rem;
     color:#f7f5f4;
 
+    
+    
+  }
+
+  .contact-pic {
+
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: all 1s;
-    
+
   }
 
   .contact-box p {
@@ -493,7 +497,19 @@ display: flex;
   .adjust {
     height: 680px;
     width: 100%;
+
 }
+
+.adjust1 {
+  height: 680px;
+  width: 100%;
+
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
 
 
 
@@ -1053,6 +1069,26 @@ text-align: center;
 
 }
 
+@media (max-width: 67em) {
+  .agrid-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1.2fr;
+  }
+
+}
+
+@media(max-width: 67em) {
+
+  .adjust1 {
+    height: 400px;
+    width: 100%;
+  
+    
+  }
+  
+
+}
+
 /*media query for altgridstrip*/
 
 @media(max-width: 65.1875rem) {
@@ -1290,14 +1326,14 @@ display: none;
 
 }
 
-#mission p, #services p {
+#mission p, #services p, #about p {
   
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 font-size: 0.94rem;
 padding-bottom: 1.2rem;
-margin-right: 10px;
-margin-left: 10px;
+margin-right: 30px;
+margin-left: 30px;
 }
 
 .mobilebtn {

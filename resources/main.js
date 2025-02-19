@@ -28,7 +28,7 @@ entries.forEach((entry) => {
 
 });
 
-const hiddenElements = document.querySelectorAll('.gr11');
+const hiddenElements = document.querySelectorAll('.adjust1');
 hiddenElements.forEach((el) => observer.observe(el));
 
 
@@ -47,7 +47,7 @@ const observers = new IntersectionObserver((entries) => {
     
     });
     
-    const hiddenElement = document.querySelectorAll('.contact-box');
+    const hiddenElement = document.querySelectorAll('.contact-pic');
     hiddenElement.forEach((el) => observer.observe(el));
 
 
