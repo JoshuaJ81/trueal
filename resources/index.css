@@ -177,14 +177,14 @@ display: flex;
 /*============================================================ HERO SECTION ===========================================================*/
   
 #hero {
-  background-image: url('../images/testtest11.jpg');
+  background-image: url('../images/officialherobanner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:top;
   text-align: center;
   
   background-blend-mode: color;
-  height: 40rem;
+  height: 42rem;
   
   display: flex;
   flex-direction: column;
