@@ -67,3 +67,6 @@ const observers = new IntersectionObserver((entries) => {
         
         const hiddenElementPic = document.querySelectorAll('.hideit');
         hiddenElementPic.forEach((el) => observervant.observe(el));
+
+    
+      

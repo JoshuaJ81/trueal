@@ -53,7 +53,11 @@ font-size: 1.25rem;
   padding-left: 4rem;
 }
 
-
+.grayemail {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
 
 
 /*=========================================================== NAVIGATION SECTION ====================================================*/
@@ -208,6 +212,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
 
   #hero p {
@@ -507,6 +512,16 @@ display: flex;
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.adjust2 {
+  height: 680px;
+  width: 100%;
+
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
   transition: all 1s;
 }
 
@@ -1228,6 +1243,13 @@ text-align: center;
 display: none;
 }
 
+.grayemail {
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
+
 }
 
 /*media query to SHOW HAMBURGER BUTTON*/
@@ -1256,6 +1278,12 @@ display: none;
 .navbar{
   margin-top: 0.1px;
   justify-content: space-between;
+  align-items:center;
+  display: flex;
+
+  height: auto;
+  width:100%;
+ 
 }
 
 .nav-menu {
