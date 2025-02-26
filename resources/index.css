@@ -886,6 +886,30 @@ text-align: center;
       color: white;
   
       }
+
+
+      #footer .container {
+        text-align: center;
+        align-content: center;
+      }
+
+  
+      .footer-logo {
+     
+       max-width: 100%;
+       justify-content: center;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #footer h3 {
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
       
       #footer p {
       text-align: center;
@@ -1579,6 +1603,26 @@ margin-bottom: 31rem;
 
   #message {
     width: 19rem;
+    }
+
+    .footer-logo, .footerp1 {
+
+
+      margin-bottom: 2rem;
+
+    }
+
+    .endfooter p {
+
+      font-size: 1.25rem;
+
+    }
+
+    .copyright p {
+
+
+      font-size: 0.75rem;
+
     }
 
 }
