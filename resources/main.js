@@ -69,4 +69,55 @@ const observers = new IntersectionObserver((entries) => {
         hiddenElementPic.forEach((el) => observervant.observe(el));
 
     
-      
+        const observerving = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                console.log(entry)
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+            
+                }   else {
+            
+                    entry.target.classList.remove('show');
+                } 
+            });
+            
+            });
+            
+            const hiddenElemem = document.querySelectorAll('.gr11');
+            hiddenElemem.forEach((el) => observerving.observe(el));
+
+
+            const observervingss = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    console.log(entry)
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                
+                    }   else {
+                
+                        entry.target.classList.remove('show');
+                    } 
+                });
+                
+                });
+                
+                const hiddenEleme = document.querySelectorAll('.gr12');
+                hiddenEleme.forEach((el) => observervingss.observe(el));
+
+
+                const observervingsss = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        console.log(entry)
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('show');
+                    
+                        }   else {
+                    
+                            entry.target.classList.remove('show');
+                        } 
+                    });
+                    
+                    });
+                    
+                    const hiddenElem = document.querySelectorAll('.gr13');
+                    hiddenElem.forEach((el) => observervingsss.observe(el));
